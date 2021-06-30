@@ -1,11 +1,23 @@
 import React from 'react';
 import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import ErrorPage from './pages/ErrorPage';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div style={{ textAlign: 'center' }}>
-      `weDocument` a documentation website for programmers by programmers
-    </div>
+    <>
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route>
+          <ErrorPage />
+        </Route>
+      </Switch>
+    </>
   );
 }
 
