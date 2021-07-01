@@ -2,8 +2,6 @@ import React from 'react';
 import { Paper } from '@material-ui/core';
 import { Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// import javaImage from '../images/java image.jpg';
-// import pythonImage from '../images/python image.jpg';
 
 const Home = () => (
   <div className="container">
@@ -13,7 +11,7 @@ const Home = () => (
     >
       Home Page
     </div>
-    <Row>
+    <Row style={{ display: 'flex', justifyContent: 'center' }}>
       <Paper
         variant="outlined"
         elevation="10"
@@ -26,11 +24,6 @@ const Home = () => (
           marginBottom: '10px',
         }}
       >
-        {/* <img */}
-        {/*  src={javaImage} */}
-        {/*  alt="javaImage" */}
-        {/*  style={{ width: '150px', height: '150px', marginBottom: '10px' }} */}
-        {/* /> */}
         <img
           src="https://img.icons8.com/ios/50/000000/java-coffee-cup-logo.png"
           alt="javaImage"
@@ -41,7 +34,6 @@ const Home = () => (
       </Paper>
       <Paper
         variant="outlined"
-        // elevation={100}
         square
         className="col-lg-4"
         style={{
@@ -51,11 +43,6 @@ const Home = () => (
           marginBottom: '10px',
         }}
       >
-        {/* <img */}
-        {/*  src={pythonImage} */}
-        {/*  alt="pythonImage" */}
-        {/*  style={{ width: '150px', height: '150px' }} */}
-        {/* /> */}
         <img
           src="https://img.icons8.com/ios-filled/50/000000/python.png"
           alt="pythonImage"
@@ -63,6 +50,44 @@ const Home = () => (
         <br />
         <br />
         <Link to="/python">Python</Link>
+      </Paper>
+      <Paper
+        variant="outlined"
+        square
+        className="col-lg-4"
+        style={{
+          textAlign: 'center',
+          padding: '40px',
+          marginRight: '10px',
+          marginBottom: '10px',
+        }}
+      >
+        <img
+          src="https://img.icons8.com/ios/50/000000/html-5.png"
+          alt="htmlImage"
+        />
+        <br />
+        <br />
+        <Link to="/html">HTML</Link>
+      </Paper>
+      <Paper
+        variant="outlined"
+        square
+        className="col-lg-4"
+        style={{
+          textAlign: 'center',
+          padding: '40px',
+          marginRight: '10px',
+          marginBottom: '10px',
+        }}
+      >
+        <img
+          src="https://img.icons8.com/wired/64/000000/css3.png"
+          alt="cssImage"
+        />
+        <br />
+        <br />
+        <Link to="/css">CSS</Link>
       </Paper>
     </Row>
   </div>

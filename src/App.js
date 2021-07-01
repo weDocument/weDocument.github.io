@@ -6,6 +6,8 @@ import ErrorPage from './pages/ErrorPage';
 import Navbar from './components/Navbar';
 import Java from './languages/Java';
 import Python from './languages/Python';
+import Html from './languages/Html';
+import Css from './languages/Css';
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
         </Route>
         <Route exact path="/python">
           <Python />
+        </Route>
+        <Route exact path="/html">
+          <Html />
+        </Route>
+        <Route exact path="/css">
+          <Css />
         </Route>
         <Route>
           <ErrorPage />
