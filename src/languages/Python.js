@@ -1,14 +1,15 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
-const ErrorPage = () => (
-  <div className="container">
+const Python = () => (
+  <Container>
     <div
       className="jumbotron"
       style={{ textAlign: 'center', marginTop: '100px' }}
     >
-      404 ! Keep away from here{' '}
+      Python Page
     </div>
-  </div>
+  </Container>
 );
 
-export default ErrorPage;
+export default Python;

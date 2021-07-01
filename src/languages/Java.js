@@ -1,14 +1,14 @@
 import React from 'react';
 
-const ErrorPage = () => (
+const Java = () => (
   <div className="container">
     <div
       className="jumbotron"
       style={{ textAlign: 'center', marginTop: '100px' }}
     >
-      404 ! Keep away from here{' '}
+      Java Page
     </div>
   </div>
 );
 
-export default ErrorPage;
+export default Java;

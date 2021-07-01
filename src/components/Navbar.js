@@ -39,25 +39,20 @@ const Navbar = () => (
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Dropdown
+              Languages
             </a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <a className="dropdown-item" href="#">
-                  Action
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Another action
+                <a className="dropdown-item" href="/java">
+                  Java
                 </a>
               </li>
               <li>
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <a className="dropdown-item" href="#">
-                  Something else here
+                <a className="dropdown-item" href="/python">
+                  Python
                 </a>
               </li>
             </ul>
