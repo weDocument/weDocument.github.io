@@ -47,9 +47,6 @@ const Navbar = () => (
                   Java
                 </a>
               </li>
-              {/* <li> */}
-              {/*  <hr className="dropdown-divider" /> */}
-              {/* </li> */}
               <li>
                 <a className="dropdown-item" href="/python">
                   Python

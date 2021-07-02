@@ -2,6 +2,14 @@ import React from 'react';
 import { Paper } from '@material-ui/core';
 import { Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+const Heading = styled.h1`
+  font-family: 'Fuggles', cursive;
+  text-align: center;
+  font-size: 70px;
+  color: #ff5c41;
+`;
 
 const Home = () => (
   <div className="container">
@@ -51,6 +59,7 @@ const Home = () => (
         <br />
         <Link to="/python">Python</Link>
       </Paper>
+      <Heading>Front End Technologies</Heading>
       <Paper
         variant="outlined"
         square
