@@ -8,6 +8,7 @@ import Java from './languages/Java';
 import Python from './languages/Python';
 import Html from './languages/Html';
 import Css from './languages/Css';
+import Tools from './languages/Tools';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path="/css">
           <Css />
+        </Route>
+        <Route exact path="/tools">
+          <Tools />
         </Route>
         <Route>
           <ErrorPage />

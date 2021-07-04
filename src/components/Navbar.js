@@ -62,6 +62,11 @@ const Navbar = () => (
                   Css
                 </a>
               </li>
+              <li>
+                <a className="dropdown-item" href="/tools">
+                  Tools
+                </a>
+              </li>
             </ul>
           </li>
           <li className="nav-item">

@@ -1,15 +1,15 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-const Html = () => (
+const Tools = () => (
   <Container>
     <div
       className="jumbotron"
       style={{ textAlign: 'center', marginTop: '100px' }}
     >
-      Html Page
+      Tools Page
     </div>
   </Container>
 );
 
-export default Html;
+export default Tools;

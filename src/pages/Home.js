@@ -15,7 +15,7 @@ const Home = () => (
   <div className="container">
     <div
       className="jumbotron"
-      style={{ textAlign: 'center', marginTop: '100px' }}
+      style={{ textAlign: 'center', marginTop: '40px' }}
     >
       Home Page
     </div>
@@ -97,6 +97,27 @@ const Home = () => (
         <br />
         <br />
         <Link to="/css">CSS</Link>
+      </Paper>
+      <Heading>Tools</Heading>
+
+      <Paper
+        variant="outlined"
+        square
+        className="col-lg-4"
+        style={{
+          textAlign: 'center',
+          padding: '40px',
+          marginRight: '10px',
+          marginBottom: '10px',
+        }}
+      >
+        <img
+          src="https://img.icons8.com/ios/50/000000/accessibility-tools.png"
+          alt="toolsImage"
+        />
+        <br />
+        <br />
+        <Link to="/tools">Tools</Link>
       </Paper>
     </Row>
   </div>
