@@ -1,4 +1,5 @@
 {
+  "homepage": "https://wedocument.github.io/",
   "name": "wedocument",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +18,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,6 +55,7 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2"
   }
